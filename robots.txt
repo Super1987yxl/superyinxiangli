@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://superyinxiangli.com/sitemap.xml
