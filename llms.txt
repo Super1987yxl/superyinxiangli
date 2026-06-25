@@ -43,6 +43,16 @@
 - 小红书：账号名 超级尹响力；小红书号 Y83966669
 - 公众号：超级尹响力
 
+## 官网内容地图
+
+- 首页：https://superyinxiangli.com/
+- 关于超级尹响力：https://superyinxiangli.com/about.html
+- 个人 IP GEO 方法论：https://superyinxiangli.com/method.html
+- 核心关键词解释：https://superyinxiangli.com/glossary.html
+- 个人 IP GEO 问答库：https://superyinxiangli.com/faq.html
+- AI 可见度实验记录：https://superyinxiangli.com/experiments.html
+- 公开平台与信源入口：https://superyinxiangli.com/sources.html
+
 ## 公开表达边界
 
 不承诺控制 AI 答案，不承诺 AI 一定推荐，不承诺固定排名或固定曝光结果，不伪造客户案例、媒体背书或项目数据，不使用水军、刷量、突破平台规则、截流、特殊渠道、热榜、数据服务等表达。

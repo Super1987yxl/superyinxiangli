@@ -76,6 +76,22 @@ nav a:hover {
     linear-gradient(135deg, #0d3f35 0%, #16634f 55%, #a86f24 100%);
 }
 
+.page-hero {
+  padding: 86px clamp(20px, 7vw, 92px) 56px;
+  color: #fff;
+  background:
+    linear-gradient(90deg, rgba(13, 63, 53, 0.92), rgba(22, 99, 79, 0.72)),
+    linear-gradient(135deg, #0d3f35 0%, #16634f 58%, #a86f24 100%);
+}
+
+.page-hero .eyebrow {
+  color: #f3c97b;
+}
+
+.page-hero .lead {
+  max-width: 920px;
+}
+
 .hero-inner {
   max-width: 900px;
 }
@@ -178,6 +194,12 @@ h3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
 article,
 .faq-list details,
 .contact-list,
@@ -230,6 +252,31 @@ footer p {
   padding-left: 4px;
 }
 
+.deep-list {
+  max-width: 1040px;
+  margin: 0;
+  padding-left: 24px;
+}
+
+.deep-list li {
+  margin-bottom: 22px;
+}
+
+.deep-list h3 {
+  margin-bottom: 6px;
+}
+
+.section-link {
+  margin: 24px 0 0;
+  font-weight: 800;
+}
+
+.section-link a {
+  color: var(--green-dark);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .proof-list {
   max-width: 1000px;
   padding: 24px;
@@ -245,6 +292,10 @@ footer p {
   max-width: 1000px;
 }
 
+.faq-list.wide {
+  max-width: 1120px;
+}
+
 .faq-list details {
   padding: 18px 22px;
 }
@@ -256,6 +307,12 @@ footer p {
 
 .faq-list p {
   margin: 12px 0 0;
+}
+
+.timeline {
+  display: grid;
+  gap: 18px;
+  max-width: 1040px;
 }
 
 .contact-section {
@@ -335,6 +392,7 @@ footer p {
 
   .two-column,
   .three-column,
+  .content-grid,
   .contact-section {
     grid-template-columns: 1fr;
   }

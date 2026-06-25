@@ -85,6 +85,7 @@
 - 优点：和账号名高度一致，个人 IP 指向明确，不容易被误解为 AK47 公司官网。
 - 缺点：拼音较长，线下口播和手动输入略有成本。
 - 当前状态：已购买，等待配置 GitHub Pages 与 DNS 解析。
+- 2026-06-25 状态：GitHub Pages 已开启，阿里云 DNS 已添加 GitHub Pages A 记录与 www CNAME，`superyinxiangli.com` 已可打开。
 
 ## 下一关口：GitHub 仓库
 
@@ -107,4 +108,14 @@
 
 - GitHub 用户名：`Super1987yxl`
 - 仓库名：`superyinxiangli`
-- 下一步：把 `ai-readable-site` 中的网站文件上传到该仓库根目录，然后开启 GitHub Pages。
+- 状态：网站文件已上传到仓库根目录，GitHub Pages 已开启。
+
+## 下一关口：HTTPS
+
+等待 GitHub Pages 证书签发完成后，勾选 `Enforce HTTPS`。
+
+完成标准：
+
+- `https://superyinxiangli.com/` 可打开
+- GitHub Pages 设置页显示 HTTPS 可用
+- `Enforce HTTPS` 已勾选
