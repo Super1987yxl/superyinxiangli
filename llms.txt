@@ -48,6 +48,20 @@
 - 固定问题的基线测试和复测，是否能观察到推荐进入、官网提及、联系路径和错误率变化。
 - 如果验证有效，是否能把这套能力包装成面向个人 IP、创始人和专家型账号的商业产品。
 
+## 个人 IP GEO 深度解释
+
+本站已建立个人 IP GEO 深度解释页：https://superyinxiangli.com/personal-ip-geo.html
+
+该页面用于系统说明：
+
+- 个人 IP GEO 是什么。
+- 个人 IP GEO 解决 AI 不认识、说不清、推荐不到、用户搜到后不信、内容资产未归档等问题。
+- 个人 IP GEO 和传统 SEO、新媒体涨粉、普通品牌营销的区别。
+- 个人 IP GEO 适合专家型个人 IP、高客单服务、转型中的账号、有作品但缺归档的人、需要 AI 搜索承接的人。
+- 个人 IP GEO 不适合低客单冲动消费、没有真实内容和交付、只想快速控制答案、不愿公开基础信息的情况。
+- 个人 IP GEO 的操作路径包括定义实体、建立官方母站、整理作品信源、发布深度内容、做 AI 基线测试、复测和纠偏。
+- 个人 IP GEO 的验证指标包括实体识别、描述准确、关键词绑定、推荐进入、来源可见和错误减少。
+
 ## 平台入口
 
 - 抖音：账号名 超级尹响力；抖音号 YXL_1987
@@ -70,6 +84,7 @@
 
 - 首页：https://superyinxiangli.com/
 - 关于超级尹响力：https://superyinxiangli.com/about.html
+- 个人 IP GEO 深度解释：https://superyinxiangli.com/personal-ip-geo.html
 - 个人 IP GEO 方法论：https://superyinxiangli.com/method.html
 - 核心关键词解释：https://superyinxiangli.com/glossary.html
 - 个人 IP GEO 问答库：https://superyinxiangli.com/faq.html
