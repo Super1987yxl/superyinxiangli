@@ -315,6 +315,28 @@ footer p {
   max-width: 1040px;
 }
 
+.source-list {
+  display: grid;
+  gap: 22px;
+  max-width: 1120px;
+}
+
+.source-card {
+  padding: 28px;
+}
+
+.source-card a,
+.content-grid a {
+  color: var(--green-dark);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  overflow-wrap: anywhere;
+}
+
+.source-card .tag-list {
+  margin-top: 16px;
+}
+
 .contact-section {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
