@@ -203,7 +203,8 @@ h3 {
 article,
 .faq-list details,
 .contact-list,
-.proof-list {
+.proof-list,
+.notice-box {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface);
@@ -213,13 +214,27 @@ article {
   padding: 24px;
 }
 
+.notice-box {
+  margin-top: 20px;
+  padding: 22px 24px;
+  border-left: 5px solid var(--gold);
+}
+
 article p,
 .proof-list p,
 .faq-list p,
+.notice-box p,
 .contact-section p,
 .boundary p,
 footer p {
   color: var(--muted);
+}
+
+.notice-box a {
+  color: var(--green-dark);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .tag-list {
