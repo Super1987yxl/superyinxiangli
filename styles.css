@@ -64,11 +64,13 @@ p { color: var(--muted); }
 
 .hero { position: relative; min-height: calc(100svh - 72px); display: flex; align-items: center; overflow: hidden; color: #fff; }
 .hero-portrait {
+  background-color: #10181d;
   background-image:
     linear-gradient(90deg, rgba(8, 14, 18, .95) 0%, rgba(8, 14, 18, .82) 42%, rgba(8, 14, 18, .20) 70%, rgba(8, 14, 18, .04) 100%),
     url("./assets/yinxiangli-portrait.jpg");
-  background-size: cover;
-  background-position: center 28%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, auto 112%;
+  background-position: center, right 12% center;
 }
 .hero-inner { width: min(1240px, calc(100% - 48px)); margin: 0 auto; padding: 90px 0 150px; }
 .hero-kicker { margin-bottom: 26px; color: #e7bd73; font-size: 13px; font-weight: 850; letter-spacing: .16em; }
@@ -239,7 +241,10 @@ body > footer:not(.site-footer) p { margin: 0; color: inherit; }
   .site-header { grid-template-columns: 1fr auto; gap: 14px; }
   .primary-nav { grid-column: 1 / -1; order: 3; justify-content: flex-start; overflow-x: auto; padding-bottom: 2px; white-space: nowrap; }
   .site-header nav:not(.primary-nav) { grid-column: 1 / -1; justify-content: flex-start; }
-  .hero-portrait { background-position: 60% 30%; }
+  .hero-portrait {
+    background-size: 100% 100%, auto 106%;
+    background-position: center, right -8% center;
+  }
   .hero-portrait::before { content: ""; position: absolute; inset: 0; background: rgba(5,10,13,.18); }
   .hero-inner, .hero-evidence { position: relative; z-index: 1; }
   .problem-grid { grid-template-columns: repeat(2, 1fr); }
@@ -258,9 +263,15 @@ body > footer:not(.site-footer) p { margin: 0; color: inherit; }
   .site-header nav:not(.primary-nav) { margin-inline: -16px; padding: 8px 16px 2px; border-top: 1px solid var(--line); }
   .section-shell { width: min(100% - 32px, 1240px); }
   .hero { min-height: 780px; align-items: flex-end; }
-  .hero-portrait { background-position: 58% top; background-size: auto 100%; background-color: #101820; }
+  .hero-portrait {
+    background-image:
+      linear-gradient(0deg, rgba(7,12,16,.99) 0%, rgba(7,12,16,.92) 48%, rgba(7,12,16,.12) 78%, rgba(7,12,16,.04) 100%),
+      url("./assets/yinxiangli-portrait.jpg");
+    background-size: 100% 100%, 100% auto;
+    background-position: center, center top;
+  }
   .hero-portrait::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(7,12,16,.98) 0%, rgba(7,12,16,.76) 45%, rgba(7,12,16,.05) 82%); }
-  .hero-inner { z-index: 2; padding: 280px 0 145px; }
+  .hero-inner { z-index: 2; padding: 380px 0 145px; }
   .hero-kicker { font-size: 11px; }
   .hero h1 { font-size: clamp(48px, 14vw, 56px); white-space: nowrap; }
   .hero-title { font-size: 23px; }
